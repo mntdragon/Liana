@@ -18,7 +18,7 @@
 I started this assignment in 5 days which it took me 3-5 hours per day.
 ------------------
 __The problems came up during the process:
-    1. Finding the images for the website
-    2. RSS feeds, the google api has shut down the function convert RSS file, it took time for me to figure out another solution
-    3. Boostrap 4 has a bit different from the version 3__
+1. Finding the images for the website
+2. RSS feeds, the google api has shut down the function convert RSS file, it took time for me to figure out another solution
+3. Boostrap 4 has a bit different from the version 3__
 
