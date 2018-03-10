@@ -15,8 +15,9 @@
 ###### Back to the top button when scroll down
 ------------------
 ## Time
+
 I started this assignment in 5 days which it took me 3-5 hours per day.
-------------------
+
 The problems came up during the process:
 1. Finding the images for the website
 2. RSS feeds, the google api has shut down the function convert RSS file, it took time for me to figure out another solution
