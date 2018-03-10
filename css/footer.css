@@ -1,0 +1,151 @@
+.footer {
+    background-color: #000000;
+    color: #ffff;
+    padding-bottom: 5%;
+}
+
+#footerNa,
+#footerNa a {
+    font-size: 1.5rem;
+}
+
+#mainNa a,
+#navbarResponsive a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.footer-pad {
+    padding: .5rem 1rem;
+}
+
+.sale-inq {
+    font-size: 1.3rem;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.smGlobalBtn {
+    /* global button class */
+    float: right;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    margin-left: 1%
+}
+
+/* facebook button class*/
+
+.facebookBtn {
+    background: #28a745;
+}
+
+.facebookBtn:before {
+    /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a";
+    /* add facebook icon */
+}
+
+.facebookBtn:hover {
+    color: #28a745;
+    background: #fff;
+    border-color: #28a745;
+    /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+
+.twitterBtn {
+    background: #28a745;
+}
+
+.twitterBtn:before {
+    font-family: "FontAwesome";
+    content: "\f099";
+    /* add twitter icon */
+}
+
+.twitterBtn:hover {
+    background: #fff;
+    color: #28a745;
+    border-color: #28a745;
+}
+
+/* linkedin button class*/
+
+.linkedinBtn {
+    background: #28a745;
+}
+
+.linkedinBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e1";
+    /* add linkedin icon */
+}
+
+.linkedinBtn:hover {
+    color: #28a745;
+    background: #fff;
+    border-color: #28a745;
+}
+
+/* return to top */
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(46, 46, 46, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(121, 121, 121, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 2px;
+}
+
+#return-to-top .fa {
+    width: min-content;
+}

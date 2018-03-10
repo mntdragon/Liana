@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed");
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    background-color: transparent;
+}
+
+section {
+    margin-top: 5%;
+}
+
+.navbar-collapse>.navbar-nav,
+.nav-item {
+    padding-left: 1.5em;
+}
+
+.form-control {
+    margin-right: .5em;
+}
+
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/masterhead.jpg") no-repeat center center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+header.masthead h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+
+.material-icons.md-48,
+.fa.fa-globe,
+.fa.fa-briefcase {
+    font-size: 48px;
+    color: #4c8930;
+}
+
+.material-icons.md-48 {
+    line-height: inherit;
+    padding: 8px;
+    margin: 5px 2px;
+}
+
+.fa.fa-briefcase,
+.fa.fa-globe {
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    margin: 20px 2px;
+}
+
+.container.align-items-center.fixed {
+    max-width: 800px;
+}
+
+.align-centered {
+    align-items: center;
+}
+
+.azegag .numbers-grid {
+    padding: 0 9em;
+}
+
+.numberic-sec h4 {
+    font-size: 3em;
+}
+
+#numbers .counters span {
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-weight: bold; */
+    font-size: 48px;
+    display: block;
+}
+
+#numbers .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    /* font-family: "Montserrat", sans-serif; */
+    font-size: 14px;
+}
+
+/* equal card height */
+
+.row-equal>div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+    padding-bottom: 2em;
+}
+
+.row-equal .card {
+    width: 100%;
+    min-height: 150px;
+    background-color: #fff;
+}
+
+/* .carousel-inner{
+    margin-top: 1.5em;
+} */
+
+.rss-top {
+    padding-top: 1em;
+}
+
+.rss-bottom {
+    padding-bottom: 1em;
+}
+
+.rss-bottom-sm {
+    padding-top: .5em;
+}
+
+.rss-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#postsCarousel.carousel {
+    padding-bottom: 1.5em;
+}
+
+/* ensure equal card height inside carousel */
+
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+.card-block {
+    width: 100%;
+    display: block;
+    margin-bottom: auto;
+    padding-top: 1.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+/* Reference section */
+
+#refBrand .container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#refBrand .ref-item {
+    border: 0.2em solid rgb(223, 223, 223);
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    text-align: center;
+    min-width: 100%;
+    height: 350px;
+    margin-bottom: 5%;
+}
+
+#refBrand .ref-item .ref-img {
+    border-bottom: 0.2em solid rgb(223, 223, 223);
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#refBrand .ref-item .ref-img img {
+    max-width: 100%;
+    padding: 2%;
+}
+
+#refBrand .ref-item h3 {
+    font-weight: 600;
+    margin-bottom: 2px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#refBrand .ref-item p {
+    padding-top: 5%;
+    display: block;
+    /* font-size: 13px; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#subscribe {
+    border-top: 0.1em solid rgb(223, 223, 223);
+    -webkit-border-radius: 0.2em;
+    border-radius: 0.2em;
+}
+
+#subscribe {
+    margin-bottom: 5%;
+}
+
+.my-container {
+    position: relative;
+    background: black;
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    border-radius: 4%;
+}
+
+.my-container h1 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.6;
+    border-radius: 4%;
+}
+
+.infographic-container {
+    padding: 50;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infographic-text-container-right {
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin-right: auto;
+}
+
+.infographic-text-container-left {
+    float: left;
+    margin-left: 20%;
+}
+
+.rss-news-title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.news-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+}
+
+.references-item {
+    border: 2px solid #f2f2f2;
+    padding-top: 2%;
+    padding-bottom: 50%;
+    width: 85%;
+    max-height: 90%;
+}
+
+.references-brand {
+    border-bottom: 2px solid #f2f2f2;
+    height: 125px;
+    width: 100%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.references-brand img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 5%;
+}
+
+.subscription-container {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-container {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.contact-container-left {
+    float: left;
+    margin-left: 5%;
+    padding-top: 0.5%;
+}
+
+.contact-container-right {
+    float: right;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: green;
+    color: white;
+}
+
+.fa-linkedin {
+    background: green;
+    color: white;
+}
+
+.fa-twitter {
+    background: green;
+    color: white;
+}
+
+/* responsive */
+
+@media (min-width: 74.9em) {
+    .azegag {
+        padding: 1em 9em;
+    }
+    .azegag .numbers-grid {
+        padding: 0 9em;
+    }
+}
+
+@media (max-width: 61.9em) {
+    .azegag {
+        padding: 1em 2em;
+    }
+    .ml-auto {
+        margin-right: auto;
+        /* width: 100%; */
+        text-align: center;
+    }
+    .mr-auto {
+        padding: 1em;
+        margin-right: auto;
+        /* width: 70%; */
+        text-align: center;
+    }
+    .my-2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        /* margin-bottom: 0; */
+    }
+    .form-control {
+        margin: 0;
+    }
+    .portfolio-box img {
+        min-width: 100%;
+        height: 10rem;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 2000px) {
+    .learnmore {
+        width: 17.5%;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: normal;
+    }
+    .row-equal .card {
+        height: 220px;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .learnmore {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: normal;
+    }
+    .section-nav {
+        flex-direction: column;
+    }
+    .navbar-collapse>.navbar-nav,
+    .nav-item {
+        padding: 0;
+    }
+    .my-2 {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 100%;
+    }
+    .form-control {
+        margin: 0;
+    }
+    .portfolio-box img {
+        min-width: 100%;
+        height: 10rem;
+    }
+    .portfolio-box {
+        margin: 1em auto;
+    }
+}
+
+/* Turn off parallax scrolling for tablets and phones*/
+
+/* width of the device's entire rendering area */
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
